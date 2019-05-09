@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="master.css">
+    <title>rockPaper</title>
+  </head>
+  <body>
+    <header>
+      <h1>THIS is a fucken game</h1>
+      <h2>of rock paper scissor battle royale !</h2>
+    </header>
+    <div class="choice">
+      <h3>Choose your weapon :</h3>
+      <ul>
+        <li><button id='rockButton' type="button" name="0">
+          Rock
+        </button></li>
+        <li><button id='paperButton'type="button" name="1">
+          Paper
+        </button></li>
+        <li><button id='scissorButton' type="button" name="2">
+          Scissor
+        </button></li>
+      </ul>
+    </div>
+    <div class="computer">
+      <h3>Your opponent chose :</h3>
+      <img id='computerImg' src="https://image.flaticon.com/icons/svg/1541/1541790.svg" width=40px alt="computer choice">
+    </div>
+    <div class="result">
+      <h3>And the result is :</h3>
+      <p id='roundResult'></p>
+    </div>
+  </body>
+<script src="mechanic.js" charset="utf-8"></script>
+</html>

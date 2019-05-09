@@ -1,0 +1,41 @@
+body {
+  display: grid;
+  grid-template-columns: 30px repeat(3, 1fr) 30px;
+
+  grid-template-areas:
+  '.... header header header ....'
+  '.... choice comput result ....'
+  '.... footer footer footer ....';
+}
+
+
+header {
+  grid-area: header;
+  justify-self: center;
+  color: grey;
+}
+
+div {
+  justify-self: center;
+}
+
+.choice {
+  grid-area: choice;
+  /* justify-self: center; */
+}
+
+.computer {
+  grid-area: comput;
+}
+
+.result {
+  grid-area: result;
+}
+
+li {
+  display: inline;
+}
+
+ul {
+  padding: 0;
+}
