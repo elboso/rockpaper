@@ -47,6 +47,21 @@ div {
   grid-area: result;
 }
 
+.final {
+  grid-area: header;
+  justify-self: end;
+  align-self: center;
+  padding-right: 100px;
+}
+
+.defeat {
+  color: red;
+}
+
+.victory {
+  color: green;
+}
+
 li {
   display: inline;
 }
