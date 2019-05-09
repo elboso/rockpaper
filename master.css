@@ -11,7 +11,7 @@ body {
   '.... footer footer footer ....';
 }
 
-@media (max-width: 640px) {
+@media screen and (max-width: 640px) {
   body {
     grid-template-columns: 20px 1fr 20px;
 
